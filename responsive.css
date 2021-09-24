@@ -1,0 +1,68 @@
+@media(max-width:770px){
+    .title-section-main{
+        font size:25px;
+    }
+    .title-section-desc{
+        max-width:100%;
+    }
+    .wcu-text-box-blue{
+        background: #fff none repeat scroll 0 0;
+        color:#444;
+    }
+    .wcu-text-box-blue .wcu-text-box-icon{
+        color: #4214ff
+    }
+}
+@media(min-width:768px) and (max-width:1023px){
+    .wcu-text-box-blue{
+        background: #fff none repeat scroll 0 0;
+        color:#444;
+    }
+    .wcu-text-box-blue .wcu-text-box-icon{
+        color: #4214ff
+    }
+
+}
+@media(max-width:800px)
+{
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        display: inline;
+        left:250px;
+        top:100px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    .Heading{
+        position: relative;
+        top:70px;
+        width: 350px;
+    }
+}
+@media(min-width:801px) and (max-width:1800px){
+    *{
+        margin: 0%;
+        padding: 0%;
+
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        left:250px;
+        top:160px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+}
+
+
+
+
+
